@@ -113,7 +113,27 @@ main {
 .dsapleBtn {
   pointer-events: none;
 }
-
+footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: fixed;
+  justify-content: center;
+  width: 100%;
+  top: 87%;
+  left: 0%;
+  border-top: 2px solid #fff;
+  padding: 10px;
+  img {
+    width: 60px;
+  }
+  p {
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
+}
 @keyframes cpu-shake-result {
   from {
     bottom: 5px;
