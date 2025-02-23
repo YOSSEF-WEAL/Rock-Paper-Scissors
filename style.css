@@ -155,3 +155,17 @@ footer {
     rotate: 5deg;
   }
 }
+@media (max-width: 1000px) {
+  body {
+    flex-direction: column;
+  }
+  footer {
+    position: static;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 500px) {
+  main {
+    width: 95%;
+  }
+}
